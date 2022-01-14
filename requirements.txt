@@ -1,0 +1,5 @@
+discord.py
+pytube
+python-dotenv
+gofile2
+imgurpython

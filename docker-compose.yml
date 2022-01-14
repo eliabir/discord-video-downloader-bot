@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  dl-bot:
+    image: vidbot
+    build: ./
+    container_name: vidbot
+    volumes:
+      - ./:/usr/src/bot
+      - ./videos:/usr/src/bot/videos
