@@ -20,7 +20,6 @@ IMGUR_API_SECRET = os.environ.get("IMGUR_API_SECRET")
 
 # Paths
 vid_path = "/usr/src/bot/videos"  # The path to the video storage directory in the Docker container
-#vid_path = "/home/dockerm1/discord_dl_bot/videos"  # The path to the video storage directory on the local machine
 os.chdir(vid_path)  # Changes directory to the video storage directory
 
 # Variants of the YouTube video url to verify YouTube links
