@@ -13,3 +13,4 @@ def upload_imgur(file_name, file_path, client_id, client_secret):
 
 if __name__ == '__main__':
     upload_imgur()
+
