@@ -1,4 +1,4 @@
-version: "3"
+version: "3.7"
 
 services:
   dl-bot:
@@ -8,3 +8,4 @@ services:
     volumes:
       - ./:/usr/src/bot
       - ./videos:/usr/src/bot/videos
+    restart: unless-stopped
